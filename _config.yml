@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "akimcse"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile-photo.jpg"
   bio              : "TIL by Android developer"
   location         : "Seoul, South Korea"
   email            :
