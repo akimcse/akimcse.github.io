@@ -1,0 +1,36 @@
+.tag-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 0.5rem;
+}
+
+.tag-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;              
+  border: 1px solid #666;
+  border-radius: 4px;            
+  font-size: 0.7em;             
+  color: #eee;
+  text-decoration: none;
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+.tag-button:hover {
+  background-color: #444;
+  border-color: #aaa;
+}
+
+.tag-count {
+  margin-left: 4px;
+  font-size: 0.7em;
+  color: #aaa;
+}
+
+.sidebar__tags h3 {
+  font-size: 0.85em;
+  margin-bottom: 0.5rem;
+  font-weight: 600;  
+}
