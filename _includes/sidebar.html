@@ -20,7 +20,7 @@
       <div class="tag-buttons">
         {% assign tags_list = site.tags | sort %}
         {% for tag in tags_list %}
-          <a class="tag-button" href="{{ '/tags/#' | append: tag[0] | slugify | append: '/' | relative_url }}">
+          <a class="tag-button" href="{{ '/tags/#' | append: tag[0] | slugify }}">
             {{ tag[0] }} <span class="tag-count">{{ tag[1].size }}</span>
           </a>
         {% endfor %}
